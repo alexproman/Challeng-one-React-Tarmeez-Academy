@@ -1,7 +1,5 @@
 export default function post(props) {
     const Title = props.Title;
-    const PostBody = props.postBody;
-
     return (
         <div className='post'>
             <div className="post-title">
@@ -9,7 +7,9 @@ export default function post(props) {
             </div>
             <hr />
             <div className="post-body">
-                <p>Post {Title} Body is {PostBody}</p>
-            </div>        </div>
+                <p>Post {Title} Body is **Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Ateriam voluptate rerum cupiditate atque nobis ipsam.</p>
+            </div>      
+        </div>
     )
 }
