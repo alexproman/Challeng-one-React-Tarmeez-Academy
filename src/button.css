@@ -1,0 +1,26 @@
+
+.btn{
+  width: 80%;
+  height: 40px;
+  background: rgb(72, 50, 197);
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  box-shadow: 0 0 3px #fff;
+  margin: 16px 8px;
+  transition: .5s ease;
+  -webkit-transition: .5s ease;
+  -moz-transition: .5s ease;
+  -ms-transition: .5s ease;
+  -o-transition: .5s ease;
+}
+.btn:hover{
+  background: #0c4864;
+}

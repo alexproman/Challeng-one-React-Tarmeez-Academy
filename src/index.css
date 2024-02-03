@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.App{
+  position: relative;
+  min-height: 100vh;
+  background: rgb(139, 198, 238);
+  
+}
+.header,.footer{
+  width: 100%;
+  background:#09f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  left: 0;
+}
+.header{
+  height: 100px;
+  top: 0;
+  border-bottom: 2px solid #333;
+}
+.footer{
+    position: sticky;
+  height: 60px;
+  bottom: 0;
+  border-top: 2px solid #333;
+}
+
+
+
+
