@@ -58,3 +58,9 @@
   text-align: center;
   box-shadow: inset 0 0 5px #fff;
 }
+.postContent{
+  word-break: break-word;
+  text-align: justify;
+  color: #3ae3e9;
+  padding: 5px;
+}
