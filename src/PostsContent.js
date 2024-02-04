@@ -12,9 +12,6 @@ export default function PostsContent() {
                 <Post id={i++} content={scndPost} />
                 <Post id={i++} content={thrdPost} />
                 <Post id={i++} content={fourthPost} />
-                <Post id={i++} content={fourthPost} />
-                <Post id={i++} content={fourthPost} />
-                <Post id={i++} content={fourthPost} />
             </div>
         </>
     )
