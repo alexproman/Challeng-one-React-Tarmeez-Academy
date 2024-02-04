@@ -13,11 +13,6 @@ export default function SideContent() {
                 <Button id={i++}/>
                 <Button id={i++}/>
                 <Button id={i++}/>
-                <Button id={i++}/>
-                <Button id={i++}/>
-                <Button id={i++}/>
-                <Button id={i++}/>
-                <Button id={i++}/>
                 
             </div>
         </>
